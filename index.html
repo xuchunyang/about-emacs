@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>*About GNU Emacs*</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: system-ui, sans-serif;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      main {
+        padding-left: 10px;
+      }
+
+      .intro {
+        color: #C00003;
+        margin-bottom: 1rem;
+      }
+
+      .version {
+        white-space: pre;
+        color: #502F8D;
+      }
+
+      .copyright {
+        font-size: 0.77rem;
+        margin-bottom: 1rem;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        line-height: 1.2;
+      }
+
+      .container-2 {
+        grid-template-columns: 220px 1fr;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .container-3 {
+        grid-template-columns: 220px 1fr;
+      }
+
+      .modeline {
+        white-space: pre;
+        position: fixed;
+        bottom: 20px;
+        width: 100%;
+        background-color: #BFBFBF;
+        z-index: 100;
+        padding-left: 10px;
+        font-family: monospace;
+        font-size: 1.1rem;
+      }
+
+      .echo-area {
+        position: fixed;
+        bottom: 0;
+        font-family: monospace;
+        font-size: 1.1rem;
+        line-height: 1.5;
+        padding-left: 10px;
+      }
+
+      .left-fringe {
+        position: fixed;
+        top: 0;
+        left: 2px;
+        width: 8px;
+        height: 100vh;
+        background-color: #F2F2F2;
+        z-index: -1;
+      }
+
+      .right-fringe {
+        position: fixed;
+        top: 0;
+        right: 2px;
+        width: 8px;
+        height: 100vh;
+        background-color: #F2F2F2;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="https://cdn.rawgit.com/emacs-mirror/emacs/6217746d/etc/images/splash.svg"
+         alt="GNU Emacs Logo">
+    <main>
+      <p class="intro">
+        This is <a href="https://www.gnu.org/software/emacs/">GNU Emacs</a>, one component of the <a href="https://www.gnu.org/gnu/thegnuproject.html">GNU</a> operating system.
+      </p>
+      <p class="version">GNU Emacs 27.0.50 (build 8, x86_64-apple-darwin17.7.0, NS appkit-1561.60 Version 10.13.6 (Build 17G65))
+ of 2018-09-10</p>
+      <p class="copyright">Copyright (C) 2018 Free Software Foundation, Inc.</p>
+
+      <div class="container container-1">
+        <div>
+          <a href="https://github.com/emacs-mirror/emacs/blob/master/etc/AUTHORS">Authors</a>
+        </div>
+        <p>Many people have contributed code included in GNU Emacs</p>
+        <div>
+          <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Contributing.html">Contributing</a>
+        </div>
+        <p>How to contribute improvements to Emacs</p>
+      </div>
+
+      <div class="container container-2">
+        <div><a href="https://www.gnu.org/gnu/thegnuproject.html">GNU and Freedom</a></div>
+        <p>Why we developed GNU Emacs, and the GNU operating system</p>
+        <div><a href="https://github.com/emacs-mirror/emacs/blob/master/etc/COPYING#L589">Absence of Warranty</a></div>
+        <p>GNU Emacs comes with ABSOLUTELY NO WARRANTY</p>
+        <div><a href="https://github.com/emacs-mirror/emacs/blob/master/COPYING">Copying Conditions</a></div>
+        <p>Conditions for redistributing and changing Emacs</p>
+        <div><a href="https://github.com/emacs-mirror/emacs/blob/master/etc/DISTRIB">Getting New Versions</a></div>
+        <p>How to obtain the latest version of Emacs</p>
+        <div><a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Distrib.html">Ordering Manuals</a></div>
+        <p>Buying printed manuals from the FSF</p>
+      </div>
+
+      <div class="container container-3">
+        <div><a href="https://github.com/emacs-mirror/emacs/blob/master/etc/tutorials/TUTORIAL">Emacs Tutorial</a></div>
+        <p>Learn basic Emacs keystroke commands</p>
+        <div><a href="https://www.gnu.org/software/emacs/tour/">Emacs Guided Tour</a></div>
+        <p>See an overview of Emacs features at gnu.org</p>
+      </div>
+    </main>
+
+    <div class="modeline">U:%%-  *About GNU Emacs*   Top of 794  (4,0)     (Fundamental)</div>
+    <div class="echo-area">For information about GNU Emacs and the GNU system, type C-h C-a.</div>
+    <div class="left-fringe"></div>
+    <div class="right-fringe"></div>
+  </body>
+</html>
